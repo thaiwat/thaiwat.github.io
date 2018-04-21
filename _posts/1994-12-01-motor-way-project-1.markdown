@@ -3,7 +3,7 @@ title: ทางหลวง กรุงเทพ-ชลบุรี (มอเ
 subtitle: งานทาง/HIGHTWAY
 layout: default
 modal-id: 1
-date: 1994-1997
+date: 1994-12-01
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
