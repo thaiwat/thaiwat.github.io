@@ -1,0 +1,15 @@
+---
+---
+title: โครงการประปา   บ้านฉาง  จ.ระยอง
+subtitle: งานประปา / WATERWORKS
+layout: default
+modal-id: 22
+date: 2018-10-18
+img: W5.jpg
+thumbnail: W5.jpg
+alt: image-alt
+project-date: พ.ศ. 2543 - พ.ศ. 2544
+# client: Start Bootstrap
+category: งานประปา / WATERWORKS
+description: โครงการก่อสร้าง ปรับปรุง ขยายการประปา บ้านฉาง ประกอบด้วยงาน อ่างเก็บน้ำดิบ สถานีสูบน้ำ สารตกตะกอน  งานวางท่อประปา  และส่วนประกอบอื่นๆ ( พ.ศ. 2543 - พ.ศ. 2544 )
+---

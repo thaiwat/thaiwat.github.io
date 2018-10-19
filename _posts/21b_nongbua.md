@@ -1,0 +1,15 @@
+---
+---
+title: ศูนย์ราชการจังหวัดหนองบัวลำภูแห่งใหม่ 
+subtitle: งานอาคาร / BUILDINGS
+layout: default
+modal-id: 21
+date: 2018-10-18
+img: 15.jpg
+thumbnail: 15.jpg
+alt: image-alt
+project-date: ม.ค. 2538 - ก.ค. 2541
+# client: Start Bootstrap
+category: งานอาคาร / BUILDINGS
+description: อาคารศูนย์ราชการจังหวัดหนองบัวลำภู  พื้นที่ใช้สอยรวม 15,000 ตรม. รวมอาคารต่อเนื่องและ ทางเดิน ( ม.ค. 2538 - ก.ค. 2541 )
+---

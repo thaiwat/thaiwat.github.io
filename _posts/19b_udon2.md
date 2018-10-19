@@ -1,0 +1,15 @@
+---
+---
+title: อาคารสูติ - นรีเวชกรรม  โรงพยาบาลอุดรธานี
+subtitle: งานอาคาร / BUILDINGS
+layout: default
+modal-id: 19
+date: 2018-10-18
+img: 12.jpg
+thumbnail: 12.jpg
+alt: image-alt
+project-date: ก.ย. 2539 - ส.ค. 2541
+# client: Start Bootstrap
+category: งานอาคาร / BUILDINGS
+description: อาคารคอนกรีตเสริมเหล็กสูง 5 ชั้น ( ก.ย. 2539 - ส.ค. 2541 )
+---
