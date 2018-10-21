@@ -4,8 +4,8 @@ subtitle: งานสวนสาธารณะ / PUBLIC  PARK
 layout: default
 modal-id: 31
 date: 2018-10-18
-img:
-thumbnail:
+img: PK8.JPG
+thumbnail: PK8.JPG
 alt: image-alt
 project-date: พ.ศ. 2540 - พ.ศ. 2541
 # client: Start Bootstrap
