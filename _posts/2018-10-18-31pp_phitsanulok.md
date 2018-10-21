@@ -1,5 +1,4 @@
 ---
----
 title: สะพานข้าม แม่น้ำน่าน จ.พิษณุโลก
 subtitle: งานสวนสาธารณะ / PUBLIC  PARK
 layout: default

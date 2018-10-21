@@ -1,5 +1,4 @@
 ---
----
 title: สะพานข้ามทางรถไฟ นครราชสีมา
 subtitle: งานสะพาน / BRIDGES
 layout: default
