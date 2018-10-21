@@ -1,5 +1,4 @@
 ---
----
 title: โครงการประปา จอ-หอ นครราชสีมา
 subtitle: งานประปา / WATERWORKS
 layout: default
