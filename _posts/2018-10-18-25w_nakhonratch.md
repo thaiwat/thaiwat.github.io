@@ -4,8 +4,8 @@ subtitle: งานประปา / WATERWORKS
 layout: default
 modal-id: 25
 date: 2018-10-18
-img: W3.JPG
-thumbnail: W3.JPG
+img: w3.JPG
+thumbnail: w3.JPG
 alt: image-alt
 project-date: พ.ค. 2536 - เม.ย. 2537
 # client: Start Bootstrap
