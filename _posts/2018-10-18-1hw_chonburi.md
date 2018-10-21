@@ -4,8 +4,8 @@ subtitle: งานทาง/HIGHTWAY
 layout: default
 modal-id: 1
 date: 2018-10-18
-img: R1.jpg
-thumbnail: R1.jpg
+img: R1.JPG
+thumbnail: R1.JPG
 alt: image-alt
 project-date: ส.ค. 2537 - พ.ย. 2540
 # client: Start Bootstrap
