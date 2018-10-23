@@ -28,8 +28,8 @@ html {
 /* The Masonry Brick */
 .pin-grid {
   background: #fff;
-  padding: 1em;
-  margin: 0 0 1.5em;
+  /*padding: 1em;*/
+  /*margin: 0 0 1.5em;*/
 }
 
 /* Masonry on large screens */
