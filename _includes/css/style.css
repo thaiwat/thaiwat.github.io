@@ -7,3 +7,8 @@
 .tag-nav{
 	display: inline-flex;
 }
+.pin-grid{
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
