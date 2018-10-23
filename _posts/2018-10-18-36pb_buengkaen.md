@@ -4,8 +4,8 @@ subtitle: งานบำบัดน้ำเสีย&งานระบาย
 layout: default
 modal-id: 36
 date: 2018-10-18
-img: BB12.JPG
-thumbnail: BB12.JPG
+img: BK12.JPG
+thumbnail: BK12.JPG
 alt: image-alt
 project-date: ก.ย. 2538 - มี.ค. 2542
 # client: Start Bootstrap
