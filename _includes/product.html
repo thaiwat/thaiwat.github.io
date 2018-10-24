@@ -1,112 +1,29 @@
-
-			<!-- Start top-course Area -->
-			<section id="product" class="top-course-area section-gap">
-				<div class="container">
-					<div class="row">
-		                <div class="col-lg-12 text-center">
-		                    <h2 class="section-heading">สินค้า</h2>
-		                    <h3 class="section-subheading text-muted">รายการผลิต</h3>
-		                </div>
-		            </div>
-					<div class="row">
-						<div class="active-topcourse-carusel">
-
-
-
-							{% for image in site.static_files %}
 								{% if image.path contains 'img/slider' %}
-							    	<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-							    {% endif %}
-							{% endfor %}
-
-<!-- 
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c1.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c2.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c3.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>	
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c1.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c2.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c3.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c1.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c2.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c3.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>	
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c1.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c2.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-								
-							</div>
-							<div class="single-carusel item">
-								<div class="thumb">
-									<img class="img-fluid" src="img/c3.jpg" alt="">
-									<div class="join-btn"><a href="#">Join Now</a></div>
-								</div>
-					
-							</div>			 -->																									
+<!-- Start top-course Area -->
+<section id="product" class="top-course-area section-gap">
+	<div class="container">
+		<div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">สินค้า</h2>
+                <h3 class="section-subheading text-muted">รายการผลิต</h3>
+            </div>
+        </div>
+		<div class="row">
+			<div class="active-topcourse-carusel">
+				{% for image in site.static_files %}
+					{% if image.path contains 'img/slider' %}
+					<div class="single-carusel item">
+						<div class="thumb">
+							<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+							<div class="join-btn"><a href="#">รายละเอียด</a></div>
 						</div>
 					</div>
-				</div>	
-			</section>
-			<!-- End top-course Area -->
-			
+				    	
+				    {% endif %}
+				{% endfor %}																							
+			</div>
+		</div>
+	</div>	
+</section>
+<!-- End top-course Area -->
+
