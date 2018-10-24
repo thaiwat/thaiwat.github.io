@@ -32,11 +32,11 @@ html {
   width: 30%;
 }
 
-.address-wrap > .flex{
+.address-wrap .flex{
   display: inline-flex;
 }
 
-.address-wrap > .icon > i{
+.address-wrap  .icon > i{
   margin-right: 15px;
   margin-top: 10px;
 }
