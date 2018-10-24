@@ -35,7 +35,7 @@
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #f6214b;
+  background: #{{ site.data.template.color.primary }};
 }
 
 .single-carusel .thumb {
@@ -50,7 +50,7 @@
   font-size: 13px;
   font-weight: 300;
   padding: 5px 40px;
-  background-color: #f6214b;
+  background-color: #{{ site.data.template.color.primary }};
   position: absolute;
   bottom: 20px;
   left: 20px;
