@@ -10,6 +10,16 @@
 		            </div>
 					<div class="row">
 						<div class="active-topcourse-carusel">
+
+
+
+							{% for image in site.static_files %}
+								{% if image.path contains 'img/slider' %}
+							    	<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+							    {% endif %}
+							{% endfor %}
+
+<!-- 
 							<div class="single-carusel item">
 								<div class="thumb">
 									<img class="img-fluid" src="img/c1.jpg" alt="">
@@ -93,7 +103,7 @@
 									<div class="join-btn"><a href="#">Join Now</a></div>
 								</div>
 					
-							</div>																												
+							</div>			 -->																									
 						</div>
 					</div>
 				</div>	
