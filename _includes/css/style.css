@@ -25,9 +25,13 @@ html {
   max-width: 100%;
   column-gap: 1.5em;
 }
-.address-wrap{
+.contact-all{
   background-color: white;
 }
+.contact-all > img{
+  width: 30%;
+}
+
 
 /* The Masonry Brick */
 .pin-grid {
