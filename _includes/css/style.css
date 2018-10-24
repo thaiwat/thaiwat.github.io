@@ -40,7 +40,12 @@ html {
   margin-right: 15px;
   margin-top: 10px;
 }
-
+.contact > .detail{
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding-top: 2%;
+}
 
 /* The Masonry Brick */
 .pin-grid {
