@@ -25,6 +25,9 @@ html {
   max-width: 100%;
   column-gap: 1.5em;
 }
+.row{
+  margin-top:20px;
+}
 .contact-all{
   background-color: white;
 }
