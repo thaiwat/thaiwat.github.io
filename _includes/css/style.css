@@ -49,7 +49,7 @@ html {
   color: white;
   padding-top: 2%;
 }
-.contact > .col-lg-12{
+.contact .col-lg-12{
   background-color: #222;
 }
 /* The Masonry Brick */
