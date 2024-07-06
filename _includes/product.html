@@ -1,0 +1,28 @@
+<!-- Start top-course Area -->
+<section id="product" class="top-course-area section-gap">
+	<div class="container">
+		<div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Products</h2>
+                <h3 class="section-subheading text-muted">เป็นผู้ผลิตท่อ/อุปกรณ์ท่อประปา สำหรับใช้ในกิจการของการประปาส่วนภูมิภาค</h3>
+            </div>
+        </div>
+		<div class="row">
+			<div class="active-topcourse-carusel">
+				{% for image in site.static_files %}
+					{% if image.path contains 'img/slider' %}
+					<div class="single-carusel item">
+						<div class="thumb">
+							<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+							<div class="join-btn"><a href="#">{{ site.baseurl }}{{ image.name | remove: '.jpg'}}</a></div>
+						</div>
+					</div>
+				    	
+				    {% endif %}
+				{% endfor %}																							
+			</div>
+		</div>
+	</div>	
+</section>
+<!-- End top-course Area -->
+

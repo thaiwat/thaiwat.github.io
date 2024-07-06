@@ -7,5 +7,5 @@ color:
 
 # Font Families
 font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  primary: 'Mitr,Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: 'Mitr,"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'

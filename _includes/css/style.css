@@ -1,0 +1,81 @@
+.logo-top{
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+  margin-left: 15px;
+	margin-top: 10px;
+}
+.tag-nav{
+	display: inline-flex;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* The Masonry Container */
+.masonry {
+  /*margin: 1.5em auto;
+  max-width: 768px;*/
+  max-width: 100%;
+  column-gap: 1.5em;
+}
+.row{
+  margin-top:20px;
+}
+.contact-all{
+  background-color: white;
+}
+.contact-all > img{
+  width: 30%;
+}
+
+.address-wrap .flex{
+  display: inline-flex;
+}
+
+.address-wrap  .icon > i{
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.contact > .detail{
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding-top: 2%;
+}
+.contact .col-lg-12{
+  background-color: #222;
+}
+/* The Masonry Brick */
+.pin-grid {
+  background: #fff;
+  /*padding: 1em;*/
+  /*margin: 0 0 1.5em;*/
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
