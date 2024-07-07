@@ -8,16 +8,34 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">ผู้ก่อตั้ง</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.founder %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <h4>START<br/><br/>2507</h4>
+                                <!-- <img class="img-circle img-responsive" src="img/about/1.jpg" alt=""> -->
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2507</h4>
-                                    <h4 class="subheading">จุดเริ่มต้น</h4>
+                                    <h4>จุดเริ่มต้น</h4>
+                                    <!-- <h4 class="subheading"></h4> -->
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">ในปี 2507 บริษัทไทยวัฒน์วิศวการทาง จำกัด ได้ถือกำเนิดโดยความร่วมมือของ 3 พี่น้องคือ นายธีระ ธนศรีวนิชชัย นายชาญ ธนศรีวนิชชัย และ นายพงษ์ศักดิ์  ธนศรีวนิชชัย ในนาม  ห้างหุ้นส่วนจำกัดไทยวัฒน์อุดรธานี</p>
@@ -26,54 +44,164 @@
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                <h4>CHANGE<br/><br/>2522</h4>
+                                <!-- <img class="img-circle img-responsive" src="img/about/2.jpg" alt=""> -->
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>10 ตุลาคม 2522</h4>
-                                    <h4 class="subheading">เปลี่ยนแปลง</h4>
+                                    <h4>เปลี่ยนแปลง</h4>
+                                    <!-- <h4 class="subheading"></h4> -->
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">ต่อมาเปลี่ยนเป็น บริษัท ไทยวัฒน์วิศวการทางจำกัด เมื่อวันที่ 10 ตุลาคม 2522</p>
+                                    <p class="text-muted">ต่อมาเปลี่ยนเป็น บริษัท ไทยวัฒน์วิศวการทางจำกัด เมื่อวันที่ 10 ตุลาคม 2522 ทะเบียนเลขที่ 0415522000101</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <h4>GROWTH<br/><br/>2532</h4>
+                                <!-- <img class="img-circle img-responsive" src="img/about/3.jpg" alt=""> -->
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2532</h4>
-                                    <h4 class="subheading">เติบโต</h4>
+                                    <h4>เติบโต</h4>
+                                    <!-- <h4 class="subheading"></h4> -->
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">ก่อตั้งบริษัทในเครือเพิ่มเติมอีก 3 บริษัท คือ บริษัท กรุงเทพคอนกรีต (1989) จำกัด บริษัท พรีเมียร์ไลท์ติ้ง จำกัด และ ห้างหุ้นส่วนจำกัด สิลาวัฒน์</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>ปัจจุบัน</h4>
-                                    <h4 class="subheading">ต่อเนื่อง</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">เราไม่หยุดพัฒนาตัวเองเพื่อสร้างสังคมที่ดีขึ้นเรื่อยๆในอนาคต</p>
+                                    <p class="text-muted">ก่อตั้งบริษัทในเครือเพิ่มเติมอีก 3 บริษัท คือ บริษัท กรุงเทพคอนกรีต (1989) จำกัด บริษัท พรีเมียร์ไลท์ติ้ง จำกัด และ ห้างหุ้นส่วนจำกัด ศิลาวัฒน์</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>Be Part
+                                    <br/>Of Our
+                                    <br/>Story!</h4>
+                                <!-- <img class="img-circle img-responsive" src="img/about/4.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ปัจจุบัน</h4>
+                                    <!-- <h4 class="subheading">ต่อเนื่อง</h4> -->
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">เราไม่หยุดพัฒนาตัวเองเพื่อสร้างสังคมที่ดีขึ้นเรื่อยๆในอนาคต</p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
                                     <br>Of Our
                                     <br>Story!</h4>
                             </div>
-                        </li>
+                        </li> -->
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">ทะเบียนการประกอบธุรกิจ</h3>
+                    <h4 class="section-subheading text-muted"></h4>
+                    <div><img src="img/services/registration.jpg" width="100%"/></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">เกี่ยวกับภาษี</h3>
+                    <h4 class="section-subheading text-muted">ภาษีมูลค่าเพิ่ม</h4>
+                    <div><img src="img/services/vat.jpg" width="100%"/></div>
+                    <h4 class="section-subheading text-muted">ข้อมูลการเสียภาษี</h4>
+                    <table width="100%">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ปี</th>
+                                <th class="text-center">ประเภทภาษี</th>
+                                <th class="text-center">วันที่ยื่น</th>
+                                <th class="text-center">ครบถ้วนตามแบบที่ต้องยื่น</th>
+                                <th class="text-center">ยื่นแบบตามเวลาที่กำหนด</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2566</td>
+                                <td>ภาษีเงินได้</td>
+                                <td>06/06/2567</td>
+                                <td>ครบถ้วน</td>
+                                <td>เป็นไปตามกรอบระยะเวลาที่กำหนด</td>
+                            </tr>
+                            <tr>
+                                <td>2565</td>
+                                <td>ภาษีเงินได้</td>
+                                <td>02/06/2566</td>
+                                <td>ครบถ้วน</td>
+                                <td>เป็นไปตามกรอบระยะเวลาที่กำหนด</td>
+                            </tr>
+                            <tr>
+                                <td>2564</td>
+                                <td>ภาษีเงินได้</td>
+                                <td>06/06/2565</td>
+                                <td>ครบถ้วน</td>
+                                <td>เป็นไปตามกรอบระยะเวลาที่กำหนด</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="img/services/Audit-Report-2566.pdf" target="_blank">รายงานของผู้สอบบัญชีรับอนุญาตในการตรวจสอบการเงินปี 2566</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h4 class="section-heading">นโยบายต่างๆ</h4>
+                    <ul class="text-left">
+                        <li><a href="img/services/Anti-Bribery-Policy.pdf" target="_blank">นโยบายด้านการต่อต้านการให้สินบนแก่เจ้าหน้าที่ของรัฐ</a></li>
+                        <li><a href="img/services/Policies-and-guidelines-for-preventing-corruption-in-procurement.pdf" target="_blank">นโยบายและแนวทางการป้องกันการทุจริตในการจัดซื้อจัดจ้าง</a></li>
+                        <li><a href="img/services/Policy-on-conflicts-between-business-interests-and-public-interests.pdf" target="_blank">นโยบายด้านการขัดกันระหว่างประโยชน์ทางธุรกิจกับประโยชน์สาธารณะ</a></li>
+                        <li><a href="img/services/Policy-on-providing-assets-and-benefits-in-return-between-private-and-government-agencies.pdf" target="_blank">นโยบายด้านการให้ทรัพย์สินและประโยชน์ต่างตอบแทนระหว่างหน่วยงานภาคเอกชนกับหน่วยงานภาครัฐ</a></li>
+                        <li><a href="img/services/Policy-on-promoting-a-culture-of-giving-and-receiving.pdf" target="_blank">นโยบายด้านการส่งเสริมวัฒนธรรมการไม่ให้ไม่รับ</a></li>
+                        <li><a href="img/services/Guidelines-for-managing-the-risk-of-bribing-government-officials.pdf" target="_blank">แนวทางการจัดการความเสี่ยงในการให้สินบนเจ้าหน้าที่ของรัฐและการนำไปสู่การปฏิบัติ</a></li>
+                    </ul>
+                    <h4 class="section-subheading text-muted">ช่องทางการแจ้งข้อร้องเรียนฯ</h4>
+                    <table width="100%">
+                        <thead>
+                            <tr>
+                                <th class="text-center">ลำดับ</th>
+                                <th class="text-center">ช่องทางการแจ้งเบาะแส</th>
+                                <th class="text-center">ช่องทางการติดต่อ</th>
+                                <th class="text-center">ผู้รับเรื่อง</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>จดหมายอิเล็กทรอนิกส์</td>
+                                <td>Email: thaiwatpathum@gmail.com</td>
+                                <td>คณะกรรมการตรวจสอบ<br/>
+                                    คณะกรรมการบรรษัทภิบาล<br/>
+                                    คณะกรรมการบริษัท</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>ไปรษณีย์</td>
+                                <td>จดหมายปิดผนึกและระบุว่า “ลับเฉพาะ” จ่าหน้าซองถึง<br/> 
+                                    สำนักตรวจสอบ บริษัท ไทยวัฒน์วิศวการทาง จำกัด<br/>
+                                    ที่อยู่ 106 หมู่ที่ 7 ถนนวงแหวนบางบัวทอง-ปทุม<br/> 
+                                    ตำบลบางเดื่ออำเภอเมืองปทุมธานี จังหวัดปทุมธานี 12000</td>
+                                <td>สำนักตรวจสอบ</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>ศูนย์แจ้งข้อมูล/ Hotline</td>
+                                <td>โทรศัพท์ 02-150-1818</td>
+                                <td>สำนักตรวจสอบ</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>สื่อออนไลน์ของบริษัทฯ</td>
+                                <td>www.thaiwatengineering.co.th</td>
+                                <td>สำนักตรวจสอบ</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>

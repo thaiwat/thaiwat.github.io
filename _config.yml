@@ -5,11 +5,9 @@ baseurl:
 title: บริษัท ไทยวัฒน์วิศวการทาง จำกัด 
 email: thaiwat.eng@gmail.com
 description: "ในปี 2507 บริษัทไทยวัฒน์วิศวการทาง จำกัด ได้ถือกำเนิดโดยความร่วมมือของ 3 พี่น้องคือ นายธีระ ธนศรีวนิิชัย, นายชาญ ธนศรีวนิชชัย และ นายพงษ์ศักดิ์  ธนศรีวนิชชัย ในนาม ห้างหุ้นส่วนจำกัดไทยวัฒน์อุดรธานี ต่อมาเปลี่ยนเป็น บริษัท ไทยวัฒน์วิศวการทางจำกัด ในปี พ.ศ. 2522 ปัจจุบัน   บริษัทไทยวัฒน์วิศวการทาง  จำกัดมีทุนจดทะเบียน 1,000 ล้านบาท และได้ก่อตั้งบริษัทในเครือ ได้แก่ บริษัทกรุงเทพคอนกรีต(1989) จำกัด, บริษัทพรีเมียร์ไลท์ติ้ง จำกัด และ ห้างหุ้นส่วนจำกัด  ศิลาวัฒน์"
-
-# Team names, titles and social links
-people:
+founder:
 - name: นายธีระ ธนศรีวนิชชัย
-  pic: 1
+  pic: 1.jpg
   position: 
   social:
     - title: twitter
@@ -20,7 +18,7 @@ people:
       url: #
 
 - name: นายชาญ ธนศรีวนิชชัย
-  pic: 2
+  pic: 2.jpg
   position: 
   social:
     - title: twitter
@@ -31,8 +29,45 @@ people:
       url: #
 
 - name: นายพงษ์ศักดิ์ ธนศรีวนิชชัย
-  pic: 3
+  pic: 3.jpg
   position: 
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+# Team names, titles and social links
+director:
+- name: นายชาญ ธนศรีวนิชชัย
+  addition: ผู้ก่อตั้ง และผู้บริหาร ตั้งแต่ปี 2522
+  pic: director-1.jpg
+  position: กรรมการผู้จัดการ
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: นางสมจิตร  ธนศรีวนิชชัย
+  addition: ผู้บริหาร ตั้งแต่ปี 2555
+  pic: director-2.jpg
+  position: กรรมการผู้จัดการ
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: นายปิติพันธุ์  ธนศรีวนิชชัย
+  addition: ผู้บริหาร ตั้งแต่ปี 2566
+  pic: director-3.jpg
+  position: กรรมการผู้จัดการ
   social:
     - title: twitter
       url: #
@@ -62,3 +97,11 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  # - jekyll-watch
+  # - jekyll-livereload
+livereload: true
