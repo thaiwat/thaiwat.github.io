@@ -26,6 +26,23 @@
                                     <strong>{{ post.category }}</strong>
                                 </li>
                             </ul>
+                            {% if post.gallery %}
+                            {% assign sorted_photos = post.gallery | sort: "order" %}
+                            <div>
+                                {% for image in sorted_photos %}
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <a href="{{ image.image_path }}" target="_blank">
+                                        <img src="{{ image.image_path }}" alt="{{ image.title}}" class="img-responsive" style="width:100%"/>
+                                        <!-- <div class="caption">
+                                            <p>{{ image.title}}</p>
+                                        </div> -->
+                                        </a>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                                </div>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
